@@ -3,11 +3,11 @@
     ### State
       - Name
       - Lives
+      - Player Id
     ### Methods
       - Get lives
       - Set lives
       - Get name
-      - Player Id
 
   ## Question
     ### State

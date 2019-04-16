@@ -2,7 +2,7 @@ require 'securerandom'
 
 class Player 
   attr_accessor :lives
-  attr_reader :name
+  attr_reader :name, :id
 
   def initialize name, lives
     @name = name
@@ -11,3 +11,5 @@ class Player
   end
 
 end
+
+# Seb = Player.new('Sebastian', 3)
