@@ -34,7 +34,9 @@
         - Player answer
       - Questions
         - Question list
-        - Already used questions?
     ### Methods
       - Execute turn result (Reduce life or just start next turn)
       - Call game over
+
+
+  #  @current_score = "P1: #{@player1.lives}/3 VS. P2: #{player2.lives}/3"

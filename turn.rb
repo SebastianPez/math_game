@@ -9,14 +9,14 @@ class Turn
 
   def player_attempt player_attempt
     @player_answer = player_attempt
-    Turn.result @player_answer
+    Turn.result @player_answer, @current_answer
   end
 
-  def self.result answer
-    puts @player_answer == @current_answer ? true : false
+  def self.result played_answer, current_answer
+    played_answer == current_answer ? true : false
   end
 
 end
 
-turn1 = Turn.new("player", 10 )
-turn1.player_attempt 10
+# turn1 = Turn.new("player", 10 )
+# turn1.player_attempt 10

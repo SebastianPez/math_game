@@ -10,6 +10,10 @@ class Player
     @id = SecureRandom.uuid
   end
 
+  def lose_life
+    @lives -= 1
+  end
+
 end
 
 # Seb = Player.new('Sebastian', 3)
